@@ -1,0 +1,1602 @@
+[
+ {
+   "Code": 2102,
+   "Description": "The workstation driver is not installed.",
+   "Name": "NERR_NetNotStarted"
+ },
+ {
+   "Code": 2103,
+   "Description": "The server could not be located.",
+   "Name": "NERR_UnknownServer"
+ },
+ {
+   "Code": 2104,
+   "Description": "An internal error occurred. The network cannot access a shared memory segment.",
+   "Name": "NERR_ShareMem"
+ },
+ {
+   "Code": 2105,
+   "Description": "A network resource shortage occurred.",
+   "Name": "NERR_NoNetworkResource"
+ },
+ {
+   "Code": 2106,
+   "Description": "This operation is not supported on workstations.",
+   "Name": "NERR_RemoteOnly"
+ },
+ {
+   "Code": 2107,
+   "Description": "The device is not connected.",
+   "Name": "NERR_DevNotRedirected"
+ },
+ {
+   "Code": 2114,
+   "Description": "The Server service is not started.",
+   "Name": "NERR_ServerNotStarted"
+ },
+ {
+   "Code": 2115,
+   "Description": "The queue is empty.",
+   "Name": "NERR_ItemNotFound"
+ },
+ {
+   "Code": 2116,
+   "Description": "The device or directory does not exist.",
+   "Name": "NERR_UnknownDevDir"
+ },
+ {
+   "Code": 2117,
+   "Description": "The operation is invalid on a redirected resource.",
+   "Name": "NERR_RedirectedPath"
+ },
+ {
+   "Code": 2118,
+   "Description": "The name has already been shared.",
+   "Name": "NERR_DuplicateShare"
+ },
+ {
+   "Code": 2119,
+   "Description": "The server is currently out of the requested resource.",
+   "Name": "NERR_NoRoom"
+ },
+ {
+   "Code": 2121,
+   "Description": "Requested addition of items exceeds the maximum allowed.",
+   "Name": "NERR_TooManyItems"
+ },
+ {
+   "Code": 2122,
+   "Description": "The Peer service supports only two simultaneous users.",
+   "Name": "NERR_InvalidMaxUsers"
+ },
+ {
+   "Code": 2123,
+   "Description": "The API return buffer is too small.",
+   "Name": "NERR_BufTooSmall"
+ },
+ {
+   "Code": 2127,
+   "Description": "A remote API error occurred.",
+   "Name": "NERR_RemoteErr"
+ },
+ {
+   "Code": 2131,
+   "Description": "An error occurred when opening or reading the configuration file.",
+   "Name": "NERR_LanmanIniError"
+ },
+ {
+   "Code": 2136,
+   "Description": "A general network error occurred.",
+   "Name": "NERR_NetworkError"
+ },
+ {
+   "Code": 2137,
+   "Description": "The Workstation service is in an inconsistent state. Restart the computer before restarting the Workstation service.",
+   "Name": "NERR_WkstaInconsistentState"
+ },
+ {
+   "Code": 2138,
+   "Description": "The Workstation service has not been started.",
+   "Name": "NERR_WkstaNotStarted"
+ },
+ {
+   "Code": 2139,
+   "Description": "The requested information is not available.",
+   "Name": "NERR_BrowserNotStarted"
+ },
+ {
+   "Code": 2140,
+   "Description": "An internal error occurred.",
+   "Name": "NERR_InternalError"
+ },
+ {
+   "Code": 2141,
+   "Description": "The server is not configured for transactions.",
+   "Name": "NERR_BadTransactConfig"
+ },
+ {
+   "Code": 2142,
+   "Description": "The requested API is not supported on the remote server.",
+   "Name": "NERR_InvalidAPI"
+ },
+ {
+   "Code": 2143,
+   "Description": "The event name is invalid.",
+   "Name": "NERR_BadEventName"
+ },
+ {
+   "Code": 2144,
+   "Description": "The computer name already exists on the network. Change it and restart the computer.",
+   "Name": "NERR_DupNameReboot"
+ },
+ {
+   "Code": 2146,
+   "Description": "The specified component could not be found in the configuration information.",
+   "Name": "NERR_CfgCompNotFound"
+ },
+ {
+   "Code": 2147,
+   "Description": "The specified parameter could not be found in the configuration information.",
+   "Name": "NERR_CfgParamNotFound"
+ },
+ {
+   "Code": 2149,
+   "Description": "A line in the configuration file is too long.",
+   "Name": "NERR_LineTooLong"
+ },
+ {
+   "Code": 2150,
+   "Description": "The printer does not exist.",
+   "Name": "NERR_QNotFound"
+ },
+ {
+   "Code": 2151,
+   "Description": "The print job does not exist.",
+   "Name": "NERR_JobNotFound"
+ },
+ {
+   "Code": 2152,
+   "Description": "The printer destination cannot be found.",
+   "Name": "NERR_DestNotFound"
+ },
+ {
+   "Code": 2153,
+   "Description": "The printer destination already exists.",
+   "Name": "NERR_DestExists"
+ },
+ {
+   "Code": 2154,
+   "Description": "The printer queue already exists.",
+   "Name": "NERR_QExists"
+ },
+ {
+   "Code": 2155,
+   "Description": "No more printers can be added.",
+   "Name": "NERR_QNoRoom"
+ },
+ {
+   "Code": 2156,
+   "Description": "No more print jobs can be added.",
+   "Name": "NERR_JobNoRoom"
+ },
+ {
+   "Code": 2157,
+   "Description": "No more printer destinations can be added.",
+   "Name": "NERR_DestNoRoom"
+ },
+ {
+   "Code": 2158,
+   "Description": "This printer destination is idle and cannot accept control operations.",
+   "Name": "NERR_DestIdle"
+ },
+ {
+   "Code": 2159,
+   "Description": "This printer destination request contains an invalid control function.",
+   "Name": "NERR_DestInvalidOp"
+ },
+ {
+   "Code": 2160,
+   "Description": "The print processor is not responding.",
+   "Name": "NERR_ProcNoRespond"
+ },
+ {
+   "Code": 2161,
+   "Description": "The spooler is not running.",
+   "Name": "NERR_SpoolerNotLoaded"
+ },
+ {
+   "Code": 2162,
+   "Description": "This operation cannot be performed on the print destination in its current state.",
+   "Name": "NERR_DestInvalidState"
+ },
+ {
+   "Code": 2163,
+   "Description": "This operation cannot be performed on the printer queue in its current state.",
+   "Name": "NERR_QinvalidState"
+ },
+ {
+   "Code": 2164,
+   "Description": "This operation cannot be performed on the print job in its current state.",
+   "Name": "NERR_JobInvalidState"
+ },
+ {
+   "Code": 2165,
+   "Description": "A spooler memory allocation failure occurred.",
+   "Name": "NERR_SpoolNoMemory"
+ },
+ {
+   "Code": 2166,
+   "Description": "The device driver does not exist.",
+   "Name": "NERR_DriverNotFound"
+ },
+ {
+   "Code": 2167,
+   "Description": "The data type is not supported by the print processor.",
+   "Name": "NERR_DataTypeInvalid"
+ },
+ {
+   "Code": 2168,
+   "Description": "The print processor is not installed.",
+   "Name": "NERR_ProcNotFound"
+ },
+ {
+   "Code": 2180,
+   "Description": "The service database is locked.",
+   "Name": "NERR_ServiceTableLocked"
+ },
+ {
+   "Code": 2181,
+   "Description": "The service table is full.",
+   "Name": "NERR_ServiceTableFull"
+ },
+ {
+   "Code": 2182,
+   "Description": "The requested service has already been started.",
+   "Name": "NERR_ServiceInstalled"
+ },
+ {
+   "Code": 2183,
+   "Description": "The service does not respond to control actions.",
+   "Name": "NERR_ServiceEntryLocked"
+ },
+ {
+   "Code": 2184,
+   "Description": "The service has not been started.",
+   "Name": "NERR_ServiceNotInstalled"
+ },
+ {
+   "Code": 2185,
+   "Description": "The service name is invalid.",
+   "Name": "NERR_BadServiceName"
+ },
+ {
+   "Code": 2186,
+   "Description": "The service is not responding to the control function.",
+   "Name": "NERR_ServiceCtlTimeout"
+ },
+ {
+   "Code": 2187,
+   "Description": "The service control is busy.",
+   "Name": "NERR_ServiceCtlBusy"
+ },
+ {
+   "Code": 2188,
+   "Description": "The configuration file contains an invalid service program name.",
+   "Name": "NERR_BadServiceProgName"
+ },
+ {
+   "Code": 2189,
+   "Description": "The service could not be controlled in its present state.",
+   "Name": "NERR_ServiceNotCtrl"
+ },
+ {
+   "Code": 2190,
+   "Description": "The service ended abnormally.",
+   "Name": "NERR_ServiceKillProc"
+ },
+ {
+   "Code": 2191,
+   "Description": "The requested pause or stop is not valid for this service.",
+   "Name": "NERR_ServiceCtlNotValid"
+ },
+ {
+   "Code": 2192,
+   "Description": "The service control dispatcher could not find the service name in the dispatch table.",
+   "Name": "NERR_NotInDispatchTbl"
+ },
+ {
+   "Code": 2193,
+   "Description": "The service control dispatcher pipe read failed.",
+   "Name": "NERR_BadControlRecv"
+ },
+ {
+   "Code": 2194,
+   "Description": "A thread for the new service could not be created.",
+   "Name": "NERR_ServiceNotStarting"
+ },
+ {
+   "Code": 2200,
+   "Description": "This workstation is already logged on to the local-area network.",
+   "Name": "NERR_AlreadyLoggedOn"
+ },
+ {
+   "Code": 2201,
+   "Description": "The workstation is not logged on to the local-area network.",
+   "Name": "NERR_NotLoggedOn"
+ },
+ {
+   "Code": 2202,
+   "Description": "The user name or group name parameter is invalid.",
+   "Name": "NERR_BadUsername"
+ },
+ {
+   "Code": 2203,
+   "Description": "The password parameter is invalid.",
+   "Name": "NERR_BadPassword"
+ },
+ {
+   "Code": 2204,
+   "Description": "@W The logon processor did not add the message alias.",
+   "Name": "NERR_UnableToAddName_W"
+ },
+ {
+   "Code": 2205,
+   "Description": "The logon processor did not add the message alias.",
+   "Name": "NERR_UnableToAddName_F"
+ },
+ {
+   "Code": 2206,
+   "Description": "@W The logoff processor did not delete the message alias.",
+   "Name": "NERR_UnableToDelName_W"
+ },
+ {
+   "Code": 2207,
+   "Description": "The logoff processor did not delete the message alias.",
+   "Name": "NERR_UnableToDelName_F"
+ },
+ {
+   "Code": 2209,
+   "Description": "Network logons are paused.",
+   "Name": "NERR_LogonsPaused"
+ },
+ {
+   "Code": 2210,
+   "Description": "A centralized logon-server conflict occurred.",
+   "Name": "NERR_LogonServerConflict"
+ },
+ {
+   "Code": 2211,
+   "Description": "The server is configured without a valid user path.",
+   "Name": "NERR_LogonNoUserPath"
+ },
+ {
+   "Code": 2212,
+   "Description": "An error occurred while loading or running the logon script.",
+   "Name": "NERR_LogonScriptError"
+ },
+ {
+   "Code": 2214,
+   "Description": "The logon server was not specified. Your computer will be logged on as STANDALONE.",
+   "Name": "NERR_StandaloneLogon"
+ },
+ {
+   "Code": 2215,
+   "Description": "The logon server could not be found.",
+   "Name": "NERR_LogonServerNotFound"
+ },
+ {
+   "Code": 2216,
+   "Description": "There is already a logon domain for this computer.",
+   "Name": "NERR_LogonDomainExists"
+ },
+ {
+   "Code": 2217,
+   "Description": "The logon server could not validate the logon.",
+   "Name": "NERR_NonValidatedLogon"
+ },
+ {
+   "Code": 2219,
+   "Description": "The security database could not be found.",
+   "Name": "NERR_ACFNotFound"
+ },
+ {
+   "Code": 2220,
+   "Description": "The group name could not be found.",
+   "Name": "NERR_GroupNotFound"
+ },
+ {
+   "Code": 2221,
+   "Description": "The user name could not be found.",
+   "Name": "NERR_UserNotFound"
+ },
+ {
+   "Code": 2222,
+   "Description": "The resource name could not be found.",
+   "Name": "NERR_ResourceNotFound"
+ },
+ {
+   "Code": 2223,
+   "Description": "The group already exists.",
+   "Name": "NERR_GroupExists"
+ },
+ {
+   "Code": 2224,
+   "Description": "The user account already exists.",
+   "Name": "NERR_UserExists"
+ },
+ {
+   "Code": 2225,
+   "Description": "The resource permission list already exists.",
+   "Name": "NERR_ResourceExists"
+ },
+ {
+   "Code": 2226,
+   "Description": "This operation is only allowed on the primary domain controller of the domain.",
+   "Name": "NERR_NotPrimary"
+ },
+ {
+   "Code": 2227,
+   "Description": "The security database has not been started.",
+   "Name": "NERR_ACFNotLoaded"
+ },
+ {
+   "Code": 2228,
+   "Description": "There are too many names in the user accounts database.",
+   "Name": "NERR_ACFNoRoom"
+ },
+ {
+   "Code": 2229,
+   "Description": "A disk I/O failure occurred.",
+   "Name": "NERR_ACFFileIOFail"
+ },
+ {
+   "Code": 2230,
+   "Description": "The limit of 64 entries per resource was exceeded.",
+   "Name": "NERR_ACFTooManyLists"
+ },
+ {
+   "Code": 2231,
+   "Description": "Deleting a user with a session is not allowed.",
+   "Name": "NERR_UserLogon"
+ },
+ {
+   "Code": 2232,
+   "Description": "The parent directory could not be located.",
+   "Name": "NERR_ACFNoParent"
+ },
+ {
+   "Code": 2233,
+   "Description": "Unable to add to the security database session cache segment.",
+   "Name": "NERR_CanNotGrowSegment"
+ },
+ {
+   "Code": 2234,
+   "Description": "This operation is not allowed on this special group.",
+   "Name": "NERR_SpeGroupOp"
+ },
+ {
+   "Code": 2235,
+   "Description": "This user is not cached in user accounts database session cache.",
+   "Name": "NERR_NotInCache"
+ },
+ {
+   "Code": 2236,
+   "Description": "The user already belongs to this group.",
+   "Name": "NERR_UserInGroup"
+ },
+ {
+   "Code": 2237,
+   "Description": "The user does not belong to this group.",
+   "Name": "NERR_UserNotInGroup"
+ },
+ {
+   "Code": 2238,
+   "Description": "This user account is undefined.",
+   "Name": "NERR_AccountUndefined"
+ },
+ {
+   "Code": 2239,
+   "Description": "This user account has expired.",
+   "Name": "NERR_AccountExpired"
+ },
+ {
+   "Code": 2240,
+   "Description": "The user is not allowed to log on from this workstation.",
+   "Name": "NERR_InvalidWorkstation"
+ },
+ {
+   "Code": 2241,
+   "Description": "The user is not allowed to log on at this time.",
+   "Name": "NERR_InvalidLogonHours"
+ },
+ {
+   "Code": 2242,
+   "Description": "The password of this user has expired.",
+   "Name": "NERR_PasswordExpired"
+ },
+ {
+   "Code": 2243,
+   "Description": "The password of this user cannot change.",
+   "Name": "NERR_PasswordCantChange"
+ },
+ {
+   "Code": 2244,
+   "Description": "This password cannot be used now.",
+   "Name": "NERR_PasswordHistConflict"
+ },
+ {
+   "Code": 2245,
+   "Description": "The password does not meet the password policy requirements. Check the minimum password length, password complexity and password history requirements.",
+   "Name": "NERR_PasswordTooShort"
+ },
+ {
+   "Code": 2246,
+   "Description": "The password of this user is too recent to change.",
+   "Name": "NERR_PasswordTooRecent"
+ },
+ {
+   "Code": 2247,
+   "Description": "The security database is corrupted.",
+   "Name": "NERR_InvalidDatabase"
+ },
+ {
+   "Code": 2248,
+   "Description": "No updates are necessary to this replicant network/local security database.",
+   "Name": "NERR_DatabaseUpToDate"
+ },
+ {
+   "Code": 2249,
+   "Description": "This replicant database is outdated; synchronization is required.",
+   "Name": "NERR_SyncRequired"
+ },
+ {
+   "Code": 2250,
+   "Description": "The network connection could not be found.",
+   "Name": "NERR_UseNotFound"
+ },
+ {
+   "Code": 2251,
+   "Description": "This asg_type is invalid.",
+   "Name": "NERR_BadAsgType"
+ },
+ {
+   "Code": 2252,
+   "Description": "This device is currently being shared.",
+   "Name": "NERR_DeviceIsShared"
+ },
+ {
+   "Code": 2270,
+   "Description": "The computer name could not be added as a message alias. The name may already exist on the network.",
+   "Name": "NERR_NoComputerName"
+ },
+ {
+   "Code": 2271,
+   "Description": "The Messenger service is already started.",
+   "Name": "NERR_MsgAlreadyStarted"
+ },
+ {
+   "Code": 2272,
+   "Description": "The Messenger service failed to start.",
+   "Name": "NERR_MsgInitFailed"
+ },
+ {
+   "Code": 2273,
+   "Description": "The message alias could not be found on the network.",
+   "Name": "NERR_NameNotFound"
+ },
+ {
+   "Code": 2274,
+   "Description": "This message alias has already been forwarded.",
+   "Name": "NERR_AlreadyForwarded"
+ },
+ {
+   "Code": 2275,
+   "Description": "This message alias has been added but is still forwarded.",
+   "Name": "NERR_AddForwarded"
+ },
+ {
+   "Code": 2276,
+   "Description": "This message alias already exists locally.",
+   "Name": "NERR_AlreadyExists"
+ },
+ {
+   "Code": 2277,
+   "Description": "The maximum number of added message aliases has been exceeded.",
+   "Name": "NERR_TooManyNames"
+ },
+ {
+   "Code": 2278,
+   "Description": "The computer name could not be deleted.",
+   "Name": "NERR_DelComputerName"
+ },
+ {
+   "Code": 2279,
+   "Description": "Messages cannot be forwarded back to the same workstation.",
+   "Name": "NERR_LocalForward"
+ },
+ {
+   "Code": 2280,
+   "Description": "An error occurred in the domain message processor.",
+   "Name": "NERR_GrpMsgProcessor"
+ },
+ {
+   "Code": 2281,
+   "Description": "The message was sent, but the recipient has paused the Messenger service.",
+   "Name": "NERR_PausedRemote"
+ },
+ {
+   "Code": 2282,
+   "Description": "The message was sent but not received.",
+   "Name": "NERR_BadReceive"
+ },
+ {
+   "Code": 2283,
+   "Description": "The message alias is currently in use. Try again later.",
+   "Name": "NERR_NameInUse"
+ },
+ {
+   "Code": 2284,
+   "Description": "The Messenger service has not been started.",
+   "Name": "NERR_MsgNotStarted"
+ },
+ {
+   "Code": 2285,
+   "Description": "The name is not on the local computer.",
+   "Name": "NERR_NotLocalName"
+ },
+ {
+   "Code": 2286,
+   "Description": "The forwarded message alias could not be found on the network.",
+   "Name": "NERR_NoForwardName"
+ },
+ {
+   "Code": 2287,
+   "Description": "The message alias table on the remote station is full.",
+   "Name": "NERR_RemoteFull"
+ },
+ {
+   "Code": 2288,
+   "Description": "Messages for this alias are not currently being forwarded.",
+   "Name": "NERR_NameNotForwarded"
+ },
+ {
+   "Code": 2289,
+   "Description": "The broadcast message was truncated.",
+   "Name": "NERR_TruncatedBroadcast"
+ },
+ {
+   "Code": 2294,
+   "Description": "This is an invalid device name.",
+   "Name": "NERR_InvalidDevice"
+ },
+ {
+   "Code": 2295,
+   "Description": "A write fault occurred.",
+   "Name": "NERR_WriteFault"
+ },
+ {
+   "Code": 2297,
+   "Description": "A duplicate message alias exists on the network.",
+   "Name": "NERR_DuplicateName"
+ },
+ {
+   "Code": 2298,
+   "Description": "@W This message alias will be deleted later.",
+   "Name": "NERR_DeleteLater"
+ },
+ {
+   "Code": 2299,
+   "Description": "The message alias was not successfully deleted from all networks.",
+   "Name": "NERR_IncompleteDel"
+ },
+ {
+   "Code": 2300,
+   "Description": "This operation is not supported on computers with multiple networks.",
+   "Name": "NERR_MultipleNets"
+ },
+ {
+   "Code": 2310,
+   "Description": "This shared resource does not exist.",
+   "Name": "NERR_NetNameNotFound"
+ },
+ {
+   "Code": 2311,
+   "Description": "This device is not shared.",
+   "Name": "NERR_DeviceNotShared"
+ },
+ {
+   "Code": 2312,
+   "Description": "A session does not exist with that computer name.",
+   "Name": "NERR_ClientNameNotFound"
+ },
+ {
+   "Code": 2314,
+   "Description": "There is not an open file with that identification number.",
+   "Name": "NERR_FileIdNotFound"
+ },
+ {
+   "Code": 2315,
+   "Description": "A failure occurred when executing a remote administration command.",
+   "Name": "NERR_ExecFailure"
+ },
+ {
+   "Code": 2316,
+   "Description": "A failure occurred when opening a remote temporary file.",
+   "Name": "NERR_TmpFile"
+ },
+ {
+   "Code": 2317,
+   "Description": "The data returned from a remote administration command has been truncated to 64K.",
+   "Name": "NERR_TooMuchData"
+ },
+ {
+   "Code": 2318,
+   "Description": "This device cannot be shared as both a spooled and a non-spooled resource.",
+   "Name": "NERR_DeviceShareConflict"
+ },
+ {
+   "Code": 2319,
+   "Description": "The information in the list of servers may be incorrect.",
+   "Name": "NERR_BrowserTableIncomplete"
+ },
+ {
+   "Code": 2320,
+   "Description": "The computer is not active in this domain.",
+   "Name": "NERR_NotLocalDomain"
+ },
+ {
+   "Code": 2321,
+   "Description": "The share must be removed from the Distributed File System before it can be deleted.",
+   "Name": "NERR_IsDfsShare"
+ },
+ {
+   "Code": 2331,
+   "Description": "The operation is invalid for this device.",
+   "Name": "NERR_DevInvalidOpCode"
+ },
+ {
+   "Code": 2332,
+   "Description": "This device cannot be shared.",
+   "Name": "NERR_DevNotFound"
+ },
+ {
+   "Code": 2333,
+   "Description": "This device was not open.",
+   "Name": "NERR_DevNotOpen"
+ },
+ {
+   "Code": 2334,
+   "Description": "This device name list is invalid.",
+   "Name": "NERR_BadQueueDevString"
+ },
+ {
+   "Code": 2335,
+   "Description": "The queue priority is invalid.",
+   "Name": "NERR_BadQueuePriority"
+ },
+ {
+   "Code": 2337,
+   "Description": "There are no shared communication devices.",
+   "Name": "NERR_NoCommDevs"
+ },
+ {
+   "Code": 2338,
+   "Description": "The queue you specified does not exist.",
+   "Name": "NERR_QueueNotFound"
+ },
+ {
+   "Code": 2340,
+   "Description": "This list of devices is invalid.",
+   "Name": "NERR_BadDevString"
+ },
+ {
+   "Code": 2341,
+   "Description": "The requested device is invalid.",
+   "Name": "NERR_BadDev"
+ },
+ {
+   "Code": 2342,
+   "Description": "This device is already in use by the spooler.",
+   "Name": "NERR_InUseBySpooler"
+ },
+ {
+   "Code": 2343,
+   "Description": "This device is already in use as a communication device.",
+   "Name": "NERR_CommDevInUse"
+ },
+ {
+   "Code": 2351,
+   "Description": "This computer name is invalid.",
+   "Name": "NERR_InvalidComputer"
+ },
+ {
+   "Code": 2354,
+   "Description": "The string and prefix specified are too long.",
+   "Name": "NERR_MaxLenExceeded"
+ },
+ {
+   "Code": 2356,
+   "Description": "This path component is invalid.",
+   "Name": "NERR_BadComponent"
+ },
+ {
+   "Code": 2357,
+   "Description": "Could not determine the type of input.",
+   "Name": "NERR_CantType"
+ },
+ {
+   "Code": 2362,
+   "Description": "The buffer for types is not big enough.",
+   "Name": "NERR_TooManyEntries"
+ },
+ {
+   "Code": 2370,
+   "Description": "Profile files cannot exceed 64K.",
+   "Name": "NERR_ProfileFileTooBig"
+ },
+ {
+   "Code": 2371,
+   "Description": "The start offset is out of range.",
+   "Name": "NERR_ProfileOffset"
+ },
+ {
+   "Code": 2372,
+   "Description": "The system cannot delete current connections to network resources.",
+   "Name": "NERR_ProfileCleanup"
+ },
+ {
+   "Code": 2373,
+   "Description": "The system was unable to parse the command line in this file.",
+   "Name": "NERR_ProfileUnknownCmd"
+ },
+ {
+   "Code": 2374,
+   "Description": "An error occurred while loading the profile file.",
+   "Name": "NERR_ProfileLoadErr"
+ },
+ {
+   "Code": 2375,
+   "Description": "@W Errors occurred while saving the profile file. The profile was partially saved.",
+   "Name": "NERR_ProfileSaveErr"
+ },
+ {
+   "Code": 2377,
+   "Description": "Log file %1 is full.",
+   "Name": "NERR_LogOverflow"
+ },
+ {
+   "Code": 2378,
+   "Description": "This log file has changed between reads.",
+   "Name": "NERR_LogFileChanged"
+ },
+ {
+   "Code": 2379,
+   "Description": "Log file %1 is corrupt.",
+   "Name": "NERR_LogFileCorrupt"
+ },
+ {
+   "Code": 2380,
+   "Description": "The source path cannot be a directory.",
+   "Name": "NERR_SourceIsDir"
+ },
+ {
+   "Code": 2381,
+   "Description": "The source path is illegal.",
+   "Name": "NERR_BadSource"
+ },
+ {
+   "Code": 2382,
+   "Description": "The destination path is illegal.",
+   "Name": "NERR_BadDest"
+ },
+ {
+   "Code": 2383,
+   "Description": "The source and destination paths are on different servers.",
+   "Name": "NERR_DifferentServers"
+ },
+ {
+   "Code": 2385,
+   "Description": "The Run server you requested is paused.",
+   "Name": "NERR_RunSrvPaused"
+ },
+ {
+   "Code": 2389,
+   "Description": "An error occurred when communicating with a Run server.",
+   "Name": "NERR_ErrCommRunSrv"
+ },
+ {
+   "Code": 2391,
+   "Description": "An error occurred when starting a background process.",
+   "Name": "NERR_ErrorExecingGhost"
+ },
+ {
+   "Code": 2392,
+   "Description": "The shared resource you are connected to could not be found.",
+   "Name": "NERR_ShareNotFound"
+ },
+ {
+   "Code": 2400,
+   "Description": "The LAN adapter number is invalid.",
+   "Name": "NERR_InvalidLana"
+ },
+ {
+   "Code": 2401,
+   "Description": "There are open files on the connection.",
+   "Name": "NERR_OpenFiles"
+ },
+ {
+   "Code": 2402,
+   "Description": "Active connections still exist.",
+   "Name": "NERR_ActiveConns"
+ },
+ {
+   "Code": 2403,
+   "Description": "This share name or password is invalid.",
+   "Name": "NERR_BadPasswordCore"
+ },
+ {
+   "Code": 2404,
+   "Description": "The device is being accessed by an active process.",
+   "Name": "NERR_DevInUse"
+ },
+ {
+   "Code": 2405,
+   "Description": "The drive letter is in use locally.",
+   "Name": "NERR_LocalDrive"
+ },
+ {
+   "Code": 2430,
+   "Description": "The specified client is already registered for the specified event.",
+   "Name": "NERR_AlertExists"
+ },
+ {
+   "Code": 2431,
+   "Description": "The alert table is full.",
+   "Name": "NERR_TooManyAlerts"
+ },
+ {
+   "Code": 2432,
+   "Description": "An invalid or nonexistent alert name was raised.",
+   "Name": "NERR_NoSuchAlert"
+ },
+ {
+   "Code": 2433,
+   "Description": "The alert recipient is invalid.",
+   "Name": "NERR_BadRecipient"
+ },
+ {
+   "Code": 2434,
+   "Description": "A user's session with this server has been deleted",
+   "Name": "NERR_AcctLimitExceeded"
+ },
+ {
+   "Code": 2440,
+   "Description": "The log file does not contain the requested record number.",
+   "Name": "NERR_InvalidLogSeek"
+ },
+ {
+   "Code": 2450,
+   "Description": "The user accounts database is not configured correctly.",
+   "Name": "NERR_BadUasConfig"
+ },
+ {
+   "Code": 2451,
+   "Description": "This operation is not permitted when the Netlogon service is running.",
+   "Name": "NERR_InvalidUASOp"
+ },
+ {
+   "Code": 2452,
+   "Description": "This operation is not allowed on the last administrative account.",
+   "Name": "NERR_LastAdmin"
+ },
+ {
+   "Code": 2453,
+   "Description": "Could not find domain controller for this domain.",
+   "Name": "NERR_DCNotFound"
+ },
+ {
+   "Code": 2454,
+   "Description": "Could not set logon information for this user.",
+   "Name": "NERR_LogonTrackingError"
+ },
+ {
+   "Code": 2455,
+   "Description": "The Netlogon service has not been started.",
+   "Name": "NERR_NetlogonNotStarted"
+ },
+ {
+   "Code": 2456,
+   "Description": "Unable to add to the user accounts database.",
+   "Name": "NERR_CanNotGrowUASFile"
+ },
+ {
+   "Code": 2457,
+   "Description": "This server's clock is not synchronized with the primary domain controller's clock.",
+   "Name": "NERR_TimeDiffAtDC"
+ },
+ {
+   "Code": 2458,
+   "Description": "A password mismatch has been detected.",
+   "Name": "NERR_PasswordMismatch"
+ },
+ {
+   "Code": 2460,
+   "Description": "The server identification does not specify a valid server.",
+   "Name": "NERR_NoSuchServer"
+ },
+ {
+   "Code": 2461,
+   "Description": "The session identification does not specify a valid session.",
+   "Name": "NERR_NoSuchSession"
+ },
+ {
+   "Code": 2462,
+   "Description": "The connection identification does not specify a valid connection.",
+   "Name": "NERR_NoSuchConnection"
+ },
+ {
+   "Code": 2463,
+   "Description": "There is no space for another entry in the table of available servers.",
+   "Name": "NERR_TooManyServers"
+ },
+ {
+   "Code": 2464,
+   "Description": "The server has reached the maximum number of sessions it supports.",
+   "Name": "NERR_TooManySessions"
+ },
+ {
+   "Code": 2465,
+   "Description": "The server has reached the maximum number of connections it supports.",
+   "Name": "NERR_TooManyConnections"
+ },
+ {
+   "Code": 2466,
+   "Description": "The server cannot open more files because it has reached its maximum number.",
+   "Name": "NERR_TooManyFiles"
+ },
+ {
+   "Code": 2467,
+   "Description": "There are no alternate servers registered on this server.",
+   "Name": "NERR_NoAlternateServers"
+ },
+ {
+   "Code": 2470,
+   "Description": "Try down-level (remote admin protocol) version of API instead.",
+   "Name": "NERR_TryDownLevel"
+ },
+ {
+   "Code": 2480,
+   "Description": "The UPS driver could not be accessed by the UPS service.",
+   "Name": "NERR_UPSDriverNotStarted"
+ },
+ {
+   "Code": 2481,
+   "Description": "The UPS service is not configured correctly.",
+   "Name": "NERR_UPSInvalidConfig"
+ },
+ {
+   "Code": 2482,
+   "Description": "The UPS service could not access the specified Comm Port.",
+   "Name": "NERR_UPSInvalidCommPort"
+ },
+ {
+   "Code": 2483,
+   "Description": "The UPS indicated a line fail or low battery situation. Service not started.",
+   "Name": "NERR_UPSSignalAsserted"
+ },
+ {
+   "Code": 2484,
+   "Description": "The UPS service failed to perform a system shut down.",
+   "Name": "NERR_UPSShutdownFailed"
+ },
+ {
+   "Code": 2500,
+   "Description": "The program below returned an MS-DOS error code:",
+   "Name": "NERR_BadDosRetCode"
+ },
+ {
+   "Code": 2501,
+   "Description": "The program below needs more memory:",
+   "Name": "NERR_ProgNeedsExtraMem"
+ },
+ {
+   "Code": 2502,
+   "Description": "The program below called an unsupported MS-DOS function:",
+   "Name": "NERR_BadDosFunction"
+ },
+ {
+   "Code": 2503,
+   "Description": "The workstation failed to boot.",
+   "Name": "NERR_RemoteBootFailed"
+ },
+ {
+   "Code": 2504,
+   "Description": "The file below is corrupt.",
+   "Name": "NERR_BadFileCheckSum"
+ },
+ {
+   "Code": 2505,
+   "Description": "No loader is specified in the boot-block definition file.",
+   "Name": "NERR_NoRplBootSystem"
+ },
+ {
+   "Code": 2506,
+   "Description": "NetBIOS returned an error: The NCB and SMB are dumped above.",
+   "Name": "NERR_RplLoadrNetBiosErr"
+ },
+ {
+   "Code": 2507,
+   "Description": "A disk I/O error occurred.",
+   "Name": "NERR_RplLoadrDiskErr"
+ },
+ {
+   "Code": 2508,
+   "Description": "Image parameter substitution failed.",
+   "Name": "NERR_ImageParamErr"
+ },
+ {
+   "Code": 2509,
+   "Description": "Too many image parameters cross disk sector boundaries.",
+   "Name": "NERR_TooManyImageParams"
+ },
+ {
+   "Code": 2510,
+   "Description": "The image was not generated from an MS-DOS diskette formatted with /S.",
+   "Name": "NERR_NonDosFloppyUsed"
+ },
+ {
+   "Code": 2511,
+   "Description": "Remote boot will be restarted later.",
+   "Name": "NERR_RplBootRestart"
+ },
+ {
+   "Code": 2512,
+   "Description": "The call to the Remoteboot server failed.",
+   "Name": "NERR_RplSrvrCallFailed"
+ },
+ {
+   "Code": 2513,
+   "Description": "Cannot connect to the Remoteboot server.",
+   "Name": "NERR_CantConnectRplSrvr"
+ },
+ {
+   "Code": 2514,
+   "Description": "Cannot open image file on the Remoteboot server.",
+   "Name": "NERR_CantOpenImageFile"
+ },
+ {
+   "Code": 2515,
+   "Description": "Connecting to the Remoteboot server...",
+   "Name": "NERR_CallingRplSrvr"
+ },
+ {
+   "Code": 2516,
+   "Description": "Connecting to the Remoteboot server...",
+   "Name": "NERR_StartingRplBoot"
+ },
+ {
+   "Code": 2517,
+   "Description": "Remote boot service was stopped; check the error log for the cause of the problem.",
+   "Name": "NERR_RplBootServiceTerm"
+ },
+ {
+   "Code": 2518,
+   "Description": "Remote boot startup failed; check the error log for the cause of the problem.",
+   "Name": "NERR_RplBootStartFailed"
+ },
+ {
+   "Code": 2519,
+   "Description": "A second connection to a Remoteboot resource is not allowed.",
+   "Name": "NERR_RPL_CONNECTED"
+ },
+ {
+   "Code": 2550,
+   "Description": "The browser service was configured with MaintainServerList=No.",
+   "Name": "NERR_BrowserConfiguredToNotRun"
+ },
+ {
+   "Code": 2610,
+   "Description": "Service failed to start since none of the network adapters started with this service.",
+   "Name": "NERR_RplNoAdaptersStarted"
+ },
+ {
+   "Code": 2611,
+   "Description": "Service failed to start due to bad startup information in the registry.",
+   "Name": "NERR_RplBadRegistry"
+ },
+ {
+   "Code": 2612,
+   "Description": "Service failed to start because its database is absent or corrupt.",
+   "Name": "NERR_RplBadDatabase"
+ },
+ {
+   "Code": 2613,
+   "Description": "Service failed to start because RPLFILES share is absent.",
+   "Name": "NERR_RplRplfilesShare"
+ },
+ {
+   "Code": 2614,
+   "Description": "Service failed to start because RPLUSER group is absent.",
+   "Name": "NERR_RplNotRplServer"
+ },
+ {
+   "Code": 2615,
+   "Description": "Cannot enumerate service records.",
+   "Name": "NERR_RplCannotEnum"
+ },
+ {
+   "Code": 2616,
+   "Description": "Workstation record information has been corrupted.",
+   "Name": "NERR_RplWkstaInfoCorrupted"
+ },
+ {
+   "Code": 2617,
+   "Description": "Workstation record was not found.",
+   "Name": "NERR_RplWkstaNotFound"
+ },
+ {
+   "Code": 2618,
+   "Description": "Workstation name is in use by some other workstation.",
+   "Name": "NERR_RplWkstaNameUnavailable"
+ },
+ {
+   "Code": 2619,
+   "Description": "Profile record information has been corrupted.",
+   "Name": "NERR_RplProfileInfoCorrupted"
+ },
+ {
+   "Code": 2620,
+   "Description": "Profile record was not found.",
+   "Name": "NERR_RplProfileNotFound"
+ },
+ {
+   "Code": 2621,
+   "Description": "Profile name is in use by some other profile.",
+   "Name": "NERR_RplProfileNameUnavailable"
+ },
+ {
+   "Code": 2622,
+   "Description": "There are workstations using this profile.",
+   "Name": "NERR_RplProfileNotEmpty"
+ },
+ {
+   "Code": 2623,
+   "Description": "Configuration record information has been corrupted.",
+   "Name": "NERR_RplConfigInfoCorrupted"
+ },
+ {
+   "Code": 2624,
+   "Description": "Configuration record was not found.",
+   "Name": "NERR_RplConfigNotFound"
+ },
+ {
+   "Code": 2625,
+   "Description": "Adapter ID record information has been corrupted.",
+   "Name": "NERR_RplAdapterInfoCorrupted"
+ },
+ {
+   "Code": 2626,
+   "Description": "An internal service error has occurred.",
+   "Name": "NERR_RplInternal"
+ },
+ {
+   "Code": 2627,
+   "Description": "Vendor ID record information has been corrupted.",
+   "Name": "NERR_RplVendorInfoCorrupted"
+ },
+ {
+   "Code": 2628,
+   "Description": "Boot block record information has been corrupted.",
+   "Name": "NERR_RplBootInfoCorrupted"
+ },
+ {
+   "Code": 2629,
+   "Description": "The user account for this workstation record is missing.",
+   "Name": "NERR_RplWkstaNeedsUserAcct"
+ },
+ {
+   "Code": 2630,
+   "Description": "The RPLUSER local group could not be found.",
+   "Name": "NERR_RplNeedsRPLUSERAcct"
+ },
+ {
+   "Code": 2631,
+   "Description": "Boot block record was not found.",
+   "Name": "NERR_RplBootNotFound"
+ },
+ {
+   "Code": 2632,
+   "Description": "Chosen profile is incompatible with this workstation.",
+   "Name": "NERR_RplIncompatibleProfile"
+ },
+ {
+   "Code": 2633,
+   "Description": "Chosen network adapter ID is in use by some other workstation.",
+   "Name": "NERR_RplAdapterNameUnavailable"
+ },
+ {
+   "Code": 2634,
+   "Description": "There are profiles using this configuration.",
+   "Name": "NERR_RplConfigNotEmpty"
+ },
+ {
+   "Code": 2635,
+   "Description": "There are workstations, profiles, or configurations using this boot block.",
+   "Name": "NERR_RplBootInUse"
+ },
+ {
+   "Code": 2636,
+   "Description": "Service failed to backup Remoteboot database.",
+   "Name": "NERR_RplBackupDatabase"
+ },
+ {
+   "Code": 2637,
+   "Description": "Adapter record was not found.",
+   "Name": "NERR_RplAdapterNotFound"
+ },
+ {
+   "Code": 2638,
+   "Description": "Vendor record was not found.",
+   "Name": "NERR_RplVendorNotFound"
+ },
+ {
+   "Code": 2639,
+   "Description": "Vendor name is in use by some other vendor record.",
+   "Name": "NERR_RplVendorNameUnavailable"
+ },
+ {
+   "Code": 2640,
+   "Description": "(boot name, vendor ID) is in use by some other boot block record.",
+   "Name": "NERR_RplBootNameUnavailable"
+ },
+ {
+   "Code": 2641,
+   "Description": "Configuration name is in use by some other configuration.",
+   "Name": "NERR_RplConfigNameUnavailable"
+ },
+ {
+   "Code": 2660,
+   "Description": "The internal database maintained by the Dfs service is corrupt.",
+   "Name": "NERR_DfsInternalCorruption"
+ },
+ {
+   "Code": 2661,
+   "Description": "One of the records in the internal Dfs database is corrupt.",
+   "Name": "NERR_DfsVolumeDataCorrupt"
+ },
+ {
+   "Code": 2662,
+   "Description": "There is no DFS name whose entry path matches the input Entry Path.",
+   "Name": "NERR_DfsNoSuchVolume"
+ },
+ {
+   "Code": 2663,
+   "Description": "A root or link with the given name already exists.",
+   "Name": "NERR_DfsVolumeAlreadyExists"
+ },
+ {
+   "Code": 2664,
+   "Description": "The server share specified is already shared in the Dfs.",
+   "Name": "NERR_DfsAlreadyShared"
+ },
+ {
+   "Code": 2665,
+   "Description": "The indicated server share does not support the indicated DFS namespace.",
+   "Name": "NERR_DfsNoSuchShare"
+ },
+ {
+   "Code": 2666,
+   "Description": "The operation is not valid on this portion of the namespace.",
+   "Name": "NERR_DfsNotALeafVolume"
+ },
+ {
+   "Code": 2667,
+   "Description": "The operation is not valid on this portion of the namespace.",
+   "Name": "NERR_DfsLeafVolume"
+ },
+ {
+   "Code": 2668,
+   "Description": "The operation is ambiguous because the link has multiple servers.",
+   "Name": "NERR_DfsVolumeHasMultipleServers"
+ },
+ {
+   "Code": 2669,
+   "Description": "Unable to create a link.",
+   "Name": "NERR_DfsCantCreateJunctionPoint"
+ },
+ {
+   "Code": 2670,
+   "Description": "The server is not Dfs Aware.",
+   "Name": "NERR_DfsServerNotDfsAware"
+ },
+ {
+   "Code": 2671,
+   "Description": "The specified rename target path is invalid.",
+   "Name": "NERR_DfsBadRenamePath"
+ },
+ {
+   "Code": 2672,
+   "Description": "The specified DFS link is offline.",
+   "Name": "NERR_DfsVolumeIsOffline"
+ },
+ {
+   "Code": 2673,
+   "Description": "The specified server is not a server for this link.",
+   "Name": "NERR_DfsNoSuchServer"
+ },
+ {
+   "Code": 2674,
+   "Description": "A cycle in the Dfs name was detected.",
+   "Name": "NERR_DfsCyclicalName"
+ },
+ {
+   "Code": 2675,
+   "Description": "The operation is not supported on a server-based Dfs.",
+   "Name": "NERR_DfsNotSupportedInServerDfs"
+ },
+ {
+   "Code": 2676,
+   "Description": "This link is already supported by the specified server-share.",
+   "Name": "NERR_DfsDuplicateService"
+ },
+ {
+   "Code": 2677,
+   "Description": "Can't remove the last server-share supporting this root or link.",
+   "Name": "NERR_DfsCantRemoveLastServerShare"
+ },
+ {
+   "Code": 2678,
+   "Description": "The operation is not supported for an Inter-DFS link.",
+   "Name": "NERR_DfsVolumeIsInterDfs"
+ },
+ {
+   "Code": 2679,
+   "Description": "The internal state of the Dfs Service has become inconsistent.",
+   "Name": "NERR_DfsInconsistent"
+ },
+ {
+   "Code": 2680,
+   "Description": "The Dfs Service has been installed on the specified server.",
+   "Name": "NERR_DfsServerUpgraded"
+ },
+ {
+   "Code": 2681,
+   "Description": "The Dfs data being reconciled is identical.",
+   "Name": "NERR_DfsDataIsIdentical"
+ },
+ {
+   "Code": 2682,
+   "Description": "The DFS root cannot be deleted. Uninstall DFS if required.",
+   "Name": "NERR_DfsCantRemoveDfsRoot"
+ },
+ {
+   "Code": 2683,
+   "Description": "A child or parent directory of the share is already in a Dfs.",
+   "Name": "NERR_DfsChildOrParentInDfs"
+ },
+ {
+   "Code": 2690,
+   "Description": "Dfs internal error.",
+   "Name": "NERR_DfsInternalError"
+ },
+ {
+   "Code": 2691,
+   "Description": "This computer is already joined to a domain.",
+   "Name": "NERR_SetupAlreadyJoined"
+ },
+ {
+   "Code": 2692,
+   "Description": "This computer is not currently joined to a domain.",
+   "Name": "NERR_SetupNotJoined"
+ },
+ {
+   "Code": 2693,
+   "Description": "This computer is a domain controller and cannot be unjoined from a domain.",
+   "Name": "NERR_SetupDomainController"
+ },
+ {
+   "Code": 2694,
+   "Description": "The destination domain controller does not support creating machine accounts in OUs.",
+   "Name": "NERR_DefaultJoinRequired"
+ },
+ {
+   "Code": 2695,
+   "Description": "The specified workgroup name is invalid.",
+   "Name": "NERR_InvalidWorkgroupName"
+ },
+ {
+   "Code": 2696,
+   "Description": "The specified computer name is incompatible with the default language used on the domain controller.",
+   "Name": "NERR_NameUsesIncompatibleCodePage"
+ },
+ {
+   "Code": 2697,
+   "Description": "The specified computer account could not be found.",
+   "Name": "NERR_ComputerAccountNotFound"
+ },
+ {
+   "Code": 2698,
+   "Description": "This version of Windows cannot be joined to a domain.",
+   "Name": "NERR_PersonalSku"
+ },
+ {
+   "Code": 2701,
+   "Description": "The password must change at the next logon.",
+   "Name": "NERR_PasswordMustChange"
+ },
+ {
+   "Code": 2702,
+   "Description": "The account is locked out.",
+   "Name": "NERR_AccountLockedOut"
+ },
+ {
+   "Code": 2703,
+   "Description": "The password is too long.",
+   "Name": "NERR_PasswordTooLong"
+ },
+ {
+   "Code": 2704,
+   "Description": "The password does not meet the complexity policy.",
+   "Name": "NERR_PasswordNotComplexEnough"
+ },
+ {
+   "Code": 2705,
+   "Description": "The password does not meet the requirements of the password filter DLLs.",
+   "Name": "NERR_PasswordFilterError"
+ },
+ {
+   "Code": 2709,
+   "Description": "The offline join completion information was not found.",
+   "Name": "NERR_NoOfflineJoinInfo"
+ },
+ {
+   "Code": 2710,
+   "Description": "The offline join completion information was bad.",
+   "Name": "NERR_BadOfflineJoinInfo"
+ },
+ {
+   "Code": 2711,
+   "Description": "Unable to create offline join information. Please ensure you have access to the specified path location and permissions to modify its contents. Running as an elevated administrator may be required.",
+   "Name": "NERR_CantCreateJoinInfo"
+ },
+ {
+   "Code": 2712,
+   "Description": "The domain join info being saved was incomplete or bad.",
+   "Name": "NERR_BadDomainJoinInfo"
+ },
+ {
+   "Code": 2713,
+   "Description": "Offline join operation successfully completed but a restart is needed.",
+   "Name": "NERR_JoinPerformedMustRestart"
+ },
+ {
+   "Code": 2714,
+   "Description": "There was no offline join operation pending.",
+   "Name": "NERR_NoJoinPending"
+ },
+ {
+   "Code": 2715,
+   "Description": "Unable to set one or more requested machine or domain name values on the local computer.",
+   "Name": "NERR_ValuesNotSet"
+ },
+ {
+   "Code": 2716,
+   "Description": "Could not verify the current machine's hostname against the saved value in the join completion information.",
+   "Name": "NERR_CantVerifyHostname"
+ },
+ {
+   "Code": 2717,
+   "Description": "Unable to load the specified offline registry hive. Please ensure you have access to the specified path location and permissions to modify its contents. Running as an elevated administrator may be required.",
+   "Name": "NERR_CantLoadOfflineHive"
+ },
+ {
+   "Code": 2718,
+   "Description": "The minimum session security requirements for this operation were not met.",
+   "Name": "NERR_ConnectionInsecure"
+ },
+ {
+   "Code": 2719,
+   "Description": "Computer account provisioning blob version is not supported.",
+   "Name": "NERR_ProvisioningBlobUnsupported"
+ }
+]
