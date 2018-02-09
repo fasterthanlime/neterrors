@@ -48,28 +48,13 @@ func doMain() error {
 	line("")
 	line("package syscallex")
 	line("")
-	line("import \"fmt\"")
-	line("")
-	line("type NERR int")
-	line("")
-	line("var _ error = (NERR)(0)")
+	line("import \"syscall\"")
 	line("")
 	line("const (")
 	for _, entry := range entries {
-		line(fmt.Sprintf("\t%s = %d", entry.Name, entry.Code))
+		line(fmt.Sprintf("\t%s syscall.Errno = %d", entry.Name, entry.Code))
 	}
 	line(")")
-	line("")
-	line("func (n NERR) Error() string {")
-	line("\tswitch n {")
-	for _, entry := range entries {
-		line(fmt.Sprintf("\tcase %s:", entry.Name))
-		line(fmt.Sprintf("\t\treturn \"%s\"", entry.Description))
-	}
-	line("\tdefault:")
-	line("\t\treturn fmt.Sprintf(\"NET_API_STATUS=%d\", n)")
-	line("\t}")
-	line("}")
 	line("")
 
 	must(out.Close())
